@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background: #eee;
+
+  font-family: "Fira Mono", Inconsolata, monospace;
+  font-size: 20pt;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background: #eee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F0F0F3;
+}
+
+.wrapper {
+  width: 340px;
+  height: 540px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #485461;
+  background: linear-gradient(145.27deg, #2E2C2C -4.62%, #0B0A0A 64.58%);
+  /* background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
+}
+
+.screen {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  /* background-color: #4357692d; */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.buttonBox {
+  height: 532px;
+  top: 291px;
+  width: 100%;
+  height: calc(100% - 110px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  box-shadow: 5px 5px 12px rgba(82, 78, 78, 0.6), 10px 10px 12px rgba(174, 174, 192, 0.2);
+  border-radius: 16px;
+
+  font-size: 20pt;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background: #F0F0F3;
+}
+
+.button:hover {
+  color: #eee;
+  background: #666;
+}
+.button:active {
+  box-shadow: inset -6px -6px 9px 0px rgba(255, 255, 255, 0.4), inset 6px 6px 9px rgba(0, 0, 0, 0.4);
+}
+
+.equals {
+  grid-column: 3 / 5;
+  background-color: rgb(243, 61, 29);
+}
+
+.equals:hover {
+  background-color: rgb(228, 39, 15);
+}
